@@ -1,4 +1,12 @@
 /*------- styles ----------*/
+body{
+    background-color:rgb(124, 230, 165);
+}
+/* heading style */
 h1{
     color: crimson;
+}
+/* button style  */
+#search-button{
+    background-color: crimson;
 }

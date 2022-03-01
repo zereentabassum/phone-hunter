@@ -20,8 +20,9 @@ const displayResult = data => {
       <div class="card">
       <img src="${data.image}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">${data.brand}</h5>
+        <h5 class="card-title">${data.phone_name}</h5>
+        <button class="btn-danger px-3 py-1 rounded">Explore</button>
       </div>
       </div>
   `;
